@@ -42,7 +42,7 @@ install_requires = [
     'penaltymodel==0.16.2',
     'penaltymodel-cache==0.4.0',
     'penaltymodel-lp==0.1.0',
-    'numpy<1.16.0',     # only while we support py34
+#    'numpy<1.16.0',     # only while we support py34  # LS - getting error on GCloud and not using 34 so remove
     'pyqubo>=0.3.0',
 ]
 
