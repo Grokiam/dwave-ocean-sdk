@@ -42,9 +42,10 @@ install_requires = [
     'penaltymodel==0.16.2',
     'penaltymodel-cache==0.4.0',
     'penaltymodel-lp==0.1.0',
-#    'numpy<1.16.0',     # only while we support py34  # LS - getting error on GCloud and not using 34 so remove
     'pyqubo>=0.3.0',
 ]
+
+#    'numpy<1.16.0',     # only while we support py34  # LS - getting error on GCloud and not using 34 so remove
 
 extras_require = {
     ':(platform_machine == "x86_64" or platform_machine == "amd64" or platform_machine == "AMD64") and python_version != "3.4"': [
